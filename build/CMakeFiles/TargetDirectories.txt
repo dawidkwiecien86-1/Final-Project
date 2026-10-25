@@ -1,0 +1,3 @@
+/workspaces/Final-Project/build/CMakeFiles/hcomp.dir
+/workspaces/Final-Project/build/CMakeFiles/edit_cache.dir
+/workspaces/Final-Project/build/CMakeFiles/rebuild_cache.dir
