@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.28.3)
+project(hcomp LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_STANDARD_REQUIRED ON)
+add_executable(hcomp src/main.cpp src/heap.cpp src/gmachine.cpp)
+target_include_directories(hcomp PRIVATE src/header)
+target_compile_options(hcomp PRIVATE -Wall -Wextra -Wpedantic)
